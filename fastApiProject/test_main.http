@@ -1,0 +1,46 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###PRATOS
+
+GET http://127.0.0.1:8000/pratos/
+Accept: application/json
+
+###TIPOS
+
+GET http://127.0.0.1:8000/tipos/
+Accept: application/json
+
+###CADASTRO TIPO
+POST http://127.0.0.1:8000/tipos/
+Accept: application/json
+
+###LOGIN
+POST http://127.0.0.1:8000/login/
+Accept: application/json
+
+###LOGAR
+
+GET http://127.0.0.1:8000/logar/nome/senha
+Accept: application/json
+
+###VALIDAÇAOPOSTprato
+POST http://127.0.0.1:8000/pratos/
+Accept: application/json
+
+###DELETEprato
+DELETE http://127.0.0.1:8000/pratos/id
+Accept: application/json
+
+###VALIDADOR
+POST http://127.0.0.1:8000/validador/
+Accept: application/json
+
+###VALIDADORToken
+POST http://127.0.0.1:8000/token/
+Accept: application/json
+###COMPRAR
+PUT http://127.0.0.1:8000/prato_compra/id
+Accept: application/json
